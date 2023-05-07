@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PM.MODEL/1.0.0": {
+        "dependencies": {
+          "PM.Utility": "1.0.0"
+        },
+        "runtime": {
+          "PM.MODEL.dll": {}
+        }
+      },
+      "PM.Utility/1.0.0": {
+        "runtime": {
+          "PM.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PM.MODEL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PM.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
