@@ -9,11 +9,18 @@ namespace PM.DATABASE.Infrastructure
 {
     public interface IRepository<T> where T : class
     {
-        Task Add(T model);
-        Task<List<T>> GetAll();
-        Task GetByID(Func<Expression, bool> model);
-        Task Delete(Func<Expression, bool> model);
-        Task Update(Func<Expression, bool> model, T entity);
+        Task<T> AddAsync(T entity);
+        Task<List<T>> AddRangeAsync(List<T> entity);
+        Task<IEnumerable<T>> GetAllAsync();
+        void Add(T entity);
+        void Add(List<T> entity);
+        void Delete(T entity);
+        T Update(T entity);
+        Task<IEnumerable<T>> Get(Expression<Func<T, bool>> expression);
+        Task<T> GetDefault(Expression<Func<T, bool>> expression);
+        Task<IEnumerable<T>> Get();
+        Task<T> GetById(int id);
+        void SaveChanges();
 
 
     }

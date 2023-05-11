@@ -11,8 +11,6 @@ namespace PM.MODEL
     public class UserMaster
     {
         public int Id { get; set; }
-
-        [RegularExpression(RegexHelper.REGEX_NAME)]
         public string Name { get; set; }
         public string Email { get; set; }
         public string MobileNo { get; set; }

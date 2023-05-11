@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PM.DATABASE\PM.DATABASE.csproj" />
     <ProjectReference Include="..\PM.MODEL\PM.MODEL.csproj" />
   </ItemGroup>

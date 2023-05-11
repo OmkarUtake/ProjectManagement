@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,33 +10,69 @@ namespace PM.DATABASE.Infrastructure
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        private readonly MasterDbContext _db;
-        public Repository(MasterDbContext db)
+        protected MasterDBContext _context;
+        public Repository(MasterDBContext context)
         {
-            _db = db;
-        }
-        public async Task Add(T model)
-        {
-            _db.Set<T>().Add(model);
-            await _db.SaveChangesAsync();
+            _context = context;
         }
 
-        public Task Delete(Func<Expression, bool> model)
+        public void Add(T entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<List<T>> GetAll()
+        public void Add(List<T> entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task GetByID(Func<Expression, bool> model)
+        public async Task<T> AddAsync(T entity)
+        {
+            await _context.Set<T>().AddAsync(entity);
+            return entity;
+        }
+
+        public Task<List<T>> AddRangeAsync(List<T> entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(Func<Expression, bool> model, T entity)
+        public void Delete(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<T>> Get(Expression<Func<T, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<T>> Get()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<T>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetDefault(Expression<Func<T, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SaveChanges()
+        {
+            _context.SaveChangesAsync();
+        }
+
+        public T Update(T entity)
         {
             throw new NotImplementedException();
         }

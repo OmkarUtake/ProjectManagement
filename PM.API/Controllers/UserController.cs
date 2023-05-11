@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PM.MODEL;
+using PM.MODEL.Models.UserMaster;
 using PM.SERVICE.IServices;
+using PM.SERVICE.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace PM.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : BaseController
     {
         private readonly IUserService _userService;
         public UserController(IUserService userService)
@@ -20,10 +21,10 @@ namespace PM.API.Controllers
         }
 
         [HttpPost("AddUser")]
-        public IActionResult AddUser([FromBody] UserMaster userMaster)
+        public async Task<Dictionary<string, object>> AddUser(UserMasterRequest request)
         {
-            _userService.AddUSer(userMaster);
-            return Ok();
+            var data = await _userService.AddUSer(request);
+            return APIResponse("Success", data);
         }
     }
 }

@@ -12,6 +12,8 @@ namespace PM.MODEL.Models.UserMaster
     {
         [RegularExpression(RegexHelper.REGEX_NAME)]
         public string Name { get; set; }
+
+        [EmailAddress]
         public string Email { get; set; }
         public string MobileNo { get; set; }
         public string CountryCode { get; set; }

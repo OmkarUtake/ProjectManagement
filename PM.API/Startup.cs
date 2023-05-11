@@ -16,6 +16,7 @@ using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using PM.API.CustomFilters;
+using PM.DATABASE;
 
 namespace PM.API
 {
@@ -34,16 +35,17 @@ namespace PM.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(options =>
-            {
-                options.Filters.Add(new ModelStateValidationFilter());
-            });
+            //services.AddControllers(options =>
+            //{
+            //    options.Filters.Add(new ModelStateValidationFilter());
+            //});
 
             services.AddControllers();
-            services.AddDbContext<MasterDbContext>(options => options.UseSqlServer(ConnectionString));
+            services.AddDbContext<MasterDBContext>(options => options.UseSqlServer(ConnectionString));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddSwaggerGen(c =>
             {
@@ -62,7 +64,6 @@ namespace PM.API
 
             app.UseSwagger();
 
-            // Enable middleware to serve Swagger UI.
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
@@ -78,7 +79,7 @@ namespace PM.API
 
             app.UseEndpoints(endpoints =>
             {
-
+                endpoints.MapControllers();
             });
         }
     }

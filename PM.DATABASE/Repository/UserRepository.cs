@@ -14,7 +14,7 @@ namespace PM.DATABASE.Repository
     }
     public class UserRepository : Repository<UserMaster>, IUserRepository
     {
-        public UserRepository(MasterDbContext masterDbContext) : base(masterDbContext)
+        public UserRepository(MasterDBContext masterDbContext) : base(masterDbContext)
         {
 
         }

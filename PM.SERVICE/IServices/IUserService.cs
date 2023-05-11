@@ -1,4 +1,6 @@
 ﻿using PM.MODEL;
+using PM.MODEL.Models.ResponseModel;
+using PM.MODEL.Models.UserMaster;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,6 @@ namespace PM.SERVICE.IServices
 {
     public interface IUserService
     {
-        Task AddUSer(UserMaster userMaster);
+        Task<ResponseModel> AddUSer(UserMasterRequest request);
     }
 }
