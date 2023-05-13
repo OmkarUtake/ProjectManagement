@@ -24,7 +24,44 @@ namespace PM.API.Controllers
         public async Task<Dictionary<string, object>> AddUser(UserMasterRequest request)
         {
             var data = await _userService.AddUSer(request);
-            return APIResponse("Success", data);
+
+            if (data.Message == "Success")
+                return APIResponse("Success", data.Data);
+
+            return FailureResponse("Failure", null);
+        }
+
+        [HttpPost("Users")]
+        public async Task<Dictionary<string, object>> Users()
+        {
+            var allUsers = await _userService.GetAllUsers();
+
+            if (allUsers.Message == "Success")
+                return APIResponse("Success", allUsers.Data);
+
+            return FailureResponse("Failed", null);
+        }
+
+        [HttpPost("Getuser/{userId}")]
+        public async Task<Dictionary<string, object>> User(int userId)
+        {
+            var allUsers = await _userService.GetUserById(userId);
+
+            if (allUsers.Message == "Success")
+                return APIResponse("Success", allUsers.Data);
+
+            return FailureResponse("Failed", null);
+        }
+
+        [HttpPost("UpdateUser")]
+        public async Task<Dictionary<string, object>> User(UserMasterRequest request)
+        {
+            var updateUser = await _userService.UpdateUser(request);
+
+            if (updateUser.Message == "Success")
+                return APIResponse("Success", updateUser.Data);
+
+            return FailureResponse("Failed", updateUser.Message);
         }
     }
 }

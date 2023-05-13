@@ -12,5 +12,8 @@ namespace PM.SERVICE.IServices
     public interface IUserService
     {
         Task<ResponseModel> AddUSer(UserMasterRequest request);
+        Task<ResponseModel> GetAllUsers();
+        Task<ResponseModel> GetUserById(int userId);
+        Task<ResponseModel> UpdateUser(UserMasterRequest request);
     }
 }

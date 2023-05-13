@@ -18,5 +18,23 @@ namespace PM.MODEL.Models.ResponseModel
         {
             return JsonSerializer.Serialize(this);
         }
+
+        public void Ok()
+        {
+            Message = "Success";
+        }
+        public void Ok(object result)
+        {
+            Data = result;
+            Message = "Success";
+        }
+        public void Failure()
+        {
+            Message = "Failed";
+        }
+        public void Failed(string message)
+        {
+            Message = message;
+        }
     }
 }

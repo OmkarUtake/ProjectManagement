@@ -10,6 +10,7 @@ namespace PM.MODEL.Models.UserMaster
 {
     public class UserMasterRequest
     {
+        public int Id { get; set; }
         [RegularExpression(RegexHelper.REGEX_NAME)]
         public string Name { get; set; }
 

@@ -15,66 +15,39 @@ namespace PM.DATABASE.Infrastructure
         {
             _context = context;
         }
-
-        public void Add(T entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Add(List<T> entity)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<T> AddAsync(T entity)
         {
             await _context.Set<T>().AddAsync(entity);
             return entity;
         }
-
-        public Task<List<T>> AddRangeAsync(List<T> entity)
+        public async Task<List<T>> AddRangeAsync(List<T> entities)
         {
-            throw new NotImplementedException();
-        }
+            await _context.Set<T>().AddRangeAsync(entities);
+            return entities;
 
+        }
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Remove(entity);
         }
-
-        public Task<IEnumerable<T>> Get(Expression<Func<T, bool>> expression)
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var data = await _context.Set<T>().ToListAsync();
+            return data;
         }
-
-        public Task<IEnumerable<T>> Get()
+        public async Task<T> GetById(int id)
         {
-            throw new NotImplementedException();
+            var data = await _context.Set<T>().FindAsync(id);
+            return data;
         }
-
-        public Task<IEnumerable<T>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<T> GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<T> GetDefault(Expression<Func<T, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task SaveChanges()
         {
-           await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
         }
-
         public T Update(T entity)
         {
-            throw new NotImplementedException();
+            _context.Entry(entity).State = EntityState.Modified;
+            return entity;
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using PM.MODEL;
 using PM.MODEL.Models.UserMaster;
+using PM.MODEL.Models.UserMaster.UserMasterDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,8 @@ namespace PM.API.Infrastructure.AutoMapper
         public MasterMapper()
         {
             CreateMap<UserMasterRequest, UserMaster>();
+            CreateMap<UserMaster, UserMasterDTO>();
         }
-       
+
     }
 }

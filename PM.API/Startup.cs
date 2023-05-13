@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,14 +8,11 @@ using PM.DATABASE.Infrastructure;
 using PM.DATABASE.Repository;
 using PM.SERVICE.IServices;
 using PM.SERVICE.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using PM.API.CustomFilters;
 using PM.DATABASE;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace PM.API
 {
@@ -47,10 +43,50 @@ namespace PM.API
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddAutoMapper(typeof(Startup));
 
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = "my_issuer",
+                    ValidAudience = "my_audience",
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("Thisissecuritykey"))
+                };
+            });
+
+            services.AddScoped<IUserService, UserService>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProjectManagement", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Crud.API", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert TOken",
+                    Name = "Authorize",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "bearer"
+
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+             {
+                 new OpenApiSecurityScheme
+                 {
+                     Reference=new OpenApiReference
+                     {
+                         Type=ReferenceType.SecurityScheme,
+                         Id="Bearer"
+                     }
+                 },
+                 new string[]{}
+             }
             });
+            });
+
 
         }
 

@@ -12,13 +12,8 @@ namespace PM.DATABASE.Infrastructure
         Task<T> AddAsync(T entity);
         Task<List<T>> AddRangeAsync(List<T> entity);
         Task<IEnumerable<T>> GetAllAsync();
-        void Add(T entity);
-        void Add(List<T> entity);
         void Delete(T entity);
         T Update(T entity);
-        Task<IEnumerable<T>> Get(Expression<Func<T, bool>> expression);
-        Task<T> GetDefault(Expression<Func<T, bool>> expression);
-        Task<IEnumerable<T>> Get();
         Task<T> GetById(int id);
         Task SaveChanges();
 
