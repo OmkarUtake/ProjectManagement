@@ -12,13 +12,25 @@ namespace PM.API.Controllers
     public class BaseController : ControllerBase
     {
         [HttpPost("Now")]
+        [ApiExplorerSettings(IgnoreApi = true)]
         public Dictionary<string, object> APIResponse(string msgCode, object result)
         {
             var response = new Dictionary<string, object>();
-            response.Add("message", 200);
+            response.Add("message", msgCode);
             response.Add("Data", result);
 
             return response;
         }
+
+        [ApiExplorerSettings(IgnoreApi = true)]
+        public Dictionary<string, object> FailureResponse(string msgCode, object result)
+        {
+            var response = new Dictionary<string, object>();
+            response.Add("message", msgCode);
+            response.Add("Data", result);
+
+            return response;
+        }
+
     }
 }

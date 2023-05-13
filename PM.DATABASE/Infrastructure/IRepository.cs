@@ -20,7 +20,7 @@ namespace PM.DATABASE.Infrastructure
         Task<T> GetDefault(Expression<Func<T, bool>> expression);
         Task<IEnumerable<T>> Get();
         Task<T> GetById(int id);
-        void SaveChanges();
+        Task SaveChanges();
 
 
     }

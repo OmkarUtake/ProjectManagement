@@ -32,7 +32,7 @@ namespace PM.SERVICE.Services
                 userMaster.CreatedBy = 1;
                 userMaster.CreatedDate = DateTime.Now;
                 var savedData = await _unitOfWork.userRepository.AddAsync(userMaster);
-                _unitOfWork.userRepository.SaveChanges();
+                await _unitOfWork.userRepository.SaveChanges();
                 response.Message = "Success";
                 response.Data = savedData;
                 return response;

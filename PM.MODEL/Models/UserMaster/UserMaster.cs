@@ -20,8 +20,9 @@ namespace PM.MODEL
         public DateTime DOJ { get; set; }
         public bool IsActive { get; set; }
         public int CreatedBy { get; set; }
+        public int? ModifiedBy { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
         public string AddressLine1 { get; set; }
         public string City { get; set; }
         public string District { get; set; }

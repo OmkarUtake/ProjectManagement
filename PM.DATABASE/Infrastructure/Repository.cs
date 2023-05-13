@@ -67,9 +67,9 @@ namespace PM.DATABASE.Infrastructure
             throw new NotImplementedException();
         }
 
-        public void SaveChanges()
+        public async Task SaveChanges()
         {
-            _context.SaveChangesAsync();
+           await _context.SaveChangesAsync();
         }
 
         public T Update(T entity)
