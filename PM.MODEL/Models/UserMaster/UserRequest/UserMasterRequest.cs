@@ -11,12 +11,17 @@ namespace PM.MODEL.Models.UserMaster
     public class UserMasterRequest
     {
         public int Id { get; set; }
-        [RegularExpression(RegexHelper.REGEX_NAME)]
+
+        [RegularExpression(RegexHelper.REGEX_NAME, ErrorMessage = "Invalid Name. ")]
         public string Name { get; set; }
 
-        [EmailAddress]
+        [EmailAddress(ErrorMessage = "Invalid email Id")]
         public string Email { get; set; }
+
+        [RegularExpression(RegexHelper.REGEX_MOBILE_NUMBER, ErrorMessage = "Invalid Mobile No. ")]
         public string MobileNo { get; set; }
+
+        [RegularExpression(RegexHelper.REGEX_COUNTRY_CODE, ErrorMessage = "Invalid Country Code. ")]
         public string CountryCode { get; set; }
         public string EmployeeId { get; set; }
         public DateTime DOB { get; set; }

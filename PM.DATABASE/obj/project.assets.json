@@ -6300,19 +6300,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\utake\\.nuget\\packages\\": {}
+    "C:\\Users\\Nimap\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj",
+      "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj",
       "projectName": "PM.DATABASE",
-      "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj",
-      "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\obj\\",
+      "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj",
+      "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6326,8 +6326,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj": {
-              "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj"
+            "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj": {
+              "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj"
             }
           }
         }
@@ -6374,7 +6374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

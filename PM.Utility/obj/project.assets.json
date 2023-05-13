@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\utake\\.nuget\\packages\\": {}
+    "C:\\Users\\Nimap\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
       "projectName": "PM.Utility",
-      "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
-      "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\obj\\",
+      "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
+      "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

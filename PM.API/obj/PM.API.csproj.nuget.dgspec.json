@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.API\\PM.API.csproj": {}
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.API\\PM.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.API\\PM.API.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.API\\PM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.API\\PM.API.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.API\\PM.API.csproj",
         "projectName": "PM.API",
-        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.API\\PM.API.csproj",
-        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.API\\obj\\",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.API\\PM.API.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj"
               },
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\PM.SERVICE.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\PM.SERVICE.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\PM.SERVICE.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\PM.SERVICE.csproj"
               }
             }
           }
@@ -100,21 +100,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj",
         "projectName": "PM.DATABASE",
-        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj",
-        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\obj\\",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj"
               }
             }
           }
@@ -176,21 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj",
         "projectName": "PM.MODEL",
-        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj",
-        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\obj\\",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,8 +204,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj"
               }
             }
           }
@@ -234,21 +234,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\PM.SERVICE.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\PM.SERVICE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\PM.SERVICE.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\PM.SERVICE.csproj",
         "projectName": "PM.SERVICE",
-        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\PM.SERVICE.csproj",
-        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.SERVICE\\obj\\",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\PM.SERVICE.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.SERVICE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,11 +262,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.DATABASE\\PM.DATABASE.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.DATABASE\\PM.DATABASE.csproj"
               },
-              "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj": {
-                "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.MODEL\\PM.MODEL.csproj"
+              "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.MODEL\\PM.MODEL.csproj"
               }
             }
           }
@@ -305,21 +305,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj": {
+    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
         "projectName": "PM.Utility",
-        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
-        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\obj\\",
+        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
+        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -359,7 +359,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

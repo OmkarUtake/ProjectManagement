@@ -18,3 +18,23 @@ C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.DATABASE\obj\
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.genruntimeconfig.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.DATABASE\bin\Debug\net5.0\PM.Utility.dll
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.DATABASE\bin\Debug\net5.0\PM.Utility.pdb
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.DATABASE.deps.json
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.DATABASE.runtimeconfig.json
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.DATABASE.runtimeconfig.dev.json
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.DATABASE.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\ref\PM.DATABASE.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.DATABASE.pdb
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.MODEL.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.Utility.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.MODEL.pdb
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\bin\Debug\net5.0\PM.Utility.pdb
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.AssemblyInfoInputs.cache
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.AssemblyInfo.cs
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.csproj.CopyComplete
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\ref\PM.DATABASE.dll
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.pdb
+C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.DATABASE\obj\Debug\net5.0\PM.DATABASE.genruntimeconfig.cache

@@ -12,7 +12,7 @@ namespace PM.MODEL.Models.ResponseModel
         public int StatusCode { get; set; }
         public string Message { get; set; }
         public object Data { get; set; }
-        public Errors Errors { get; set; }
+        public List<Errors> Errors { get; set; }
 
         public override string ToString()
         {
