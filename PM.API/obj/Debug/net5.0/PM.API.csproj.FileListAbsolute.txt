@@ -5,7 +5,6 @@ C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\PM.API.runtimeconfig.json
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\PM.API.runtimeconfig.dev.json
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\PM.API.dll
-C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\ref\PM.API.dll
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\PM.API.pdb
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\PM.API.Views.dll
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\EntityFramework.SqlServer.dll
@@ -50,7 +49,6 @@ C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\PM.API.csproj.CoreCompileInputs.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\PM.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\staticwebassets\PM.API.StaticWebAssets.Manifest.cache
-C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\staticwebassets\PM.API.StaticWebAssets.xml
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\scopedcss\bundle\PM.API.styles.css
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\PM.API.RazorTargetAssemblyInfo.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\PM.API.csproj.CopyComplete
@@ -200,3 +198,9 @@ C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.API\obj\Debug\net5.0\PM.A
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.API\obj\Debug\net5.0\ref\PM.API.dll
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.API\obj\Debug\net5.0\PM.API.pdb
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.API\obj\Debug\net5.0\PM.API.genruntimeconfig.cache
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\ref\PM.API.dll
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\obj\Debug\net5.0\staticwebassets\PM.API.StaticWebAssets.xml
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

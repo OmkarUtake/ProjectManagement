@@ -1,6 +1,5 @@
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\bin\Debug\net5.0\PM.Utility.deps.json
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\bin\Debug\net5.0\PM.Utility.dll
-C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\bin\Debug\net5.0\ref\PM.Utility.dll
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\bin\Debug\net5.0\PM.Utility.pdb
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\obj\Debug\net5.0\PM.Utility.csproj.AssemblyReference.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\obj\Debug\net5.0\PM.Utility.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@ C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.Utility\obj\Debug\net5.0\
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.Utility\obj\Debug\net5.0\PM.Utility.dll
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.Utility\obj\Debug\net5.0\ref\PM.Utility.dll
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.Utility\obj\Debug\net5.0\PM.Utility.pdb
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.Utility\bin\Debug\net5.0\ref\PM.Utility.dll

@@ -10,5 +10,6 @@ namespace PM.DATABASE.Infrastructure
    public interface IUnitOfWork
     {
        public IUserRepository userRepository { get; }
+
     }
 }

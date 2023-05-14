@@ -9,17 +9,12 @@ using System.Threading.Tasks;
 
 namespace Crud.UtilityHelper
 {
-    public class JWTHelper
+    public static class JWTHelper
     {
-        public JWTHelper()
-        {
-
-        }
-
-        public string GenerateToken(string userName)
+        public static string GenerateToken(string userName)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var tokenKey = Encoding.ASCII.GetBytes("Thisissecuritykey");
+            var tokenKey = Encoding.ASCII.GetBytes("Th!s!ssecur!tyk3y0fp4o7391qwertsyhkfhhcgdk");
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "KsR4kiCHHU3UEWGpF1Sl5OQg7v5nFJM16bl0NusMgpKLeEq+nye/zMFydku8zmfkvnTmmC87lavtfiN6BaZaLA==",
+  "dgSpecHash": "ONze5TSCJ5Bdmv4MyeDR5tRNuWI8AMmc6PFouO3BeW13kWt69ODikHsraQ4e77UWaXLmmn/l4SK0z7M8AgxKvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.30.1\\microsoft.identitymodel.abstractions.6.30.1.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.30.1\\microsoft.identitymodel.jsonwebtokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.identitymodel.logging\\6.30.1\\microsoft.identitymodel.logging.6.30.1.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.30.1\\microsoft.identitymodel.tokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.30.1\\system.identitymodel.tokens.jwt.6.30.1.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\utake\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }

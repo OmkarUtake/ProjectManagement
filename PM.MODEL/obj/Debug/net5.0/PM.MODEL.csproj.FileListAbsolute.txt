@@ -1,6 +1,5 @@
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\bin\Debug\net5.0\PM.MODEL.deps.json
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\bin\Debug\net5.0\PM.MODEL.dll
-C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\bin\Debug\net5.0\ref\PM.MODEL.dll
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\bin\Debug\net5.0\PM.MODEL.pdb
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\obj\Debug\net5.0\PM.MODEL.csproj.AssemblyReference.cache
 C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\obj\Debug\net5.0\PM.MODEL.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,3 +27,4 @@ C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.MODEL\obj\Debug\net5.0\PM
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.MODEL\obj\Debug\net5.0\PM.MODEL.dll
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.MODEL\obj\Debug\net5.0\ref\PM.MODEL.dll
 C:\Users\Nimap\Desktop\New folder\ProjectManagement\PM.MODEL\obj\Debug\net5.0\PM.MODEL.pdb
+C:\Users\utake\OneDrive\Desktop\Resume\ProjectManagement\PM.API\PM.MODEL\bin\Debug\net5.0\ref\PM.MODEL.dll

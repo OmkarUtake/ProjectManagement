@@ -13,6 +13,8 @@ using PM.DATABASE;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using PM.API.CustomFilters;
+using PM.API.Infrastructure.CustomFilters;
 
 namespace PM.API
 {
@@ -31,16 +33,19 @@ namespace PM.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddControllers(options =>
-            //{
-            //    options.Filters.Add(new ModelStateValidationFilter());
-            //});
+            services.AddControllers(options =>
+            {
+                options.Filters.Add(new ModelStateValidationFilter());
+                options.Filters.Add(new ResultFilter());
+                options.Filters.Add(new ExceptionFilter());
+            });
 
             services.AddControllers();
             services.AddDbContext<MasterDBContext>(options => options.UseSqlServer(ConnectionString));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddTransient<IAccountService, AccountService>();
             services.AddAutoMapper(typeof(Startup));
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

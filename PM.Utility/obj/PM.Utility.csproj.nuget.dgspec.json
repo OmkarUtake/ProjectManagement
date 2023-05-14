@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj": {}
+    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj": {
+    "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
         "projectName": "PM.Utility",
-        "projectPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\PM.Utility.csproj",
-        "packagesPath": "C:\\Users\\Nimap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nimap\\Desktop\\New folder\\ProjectManagement\\PM.Utility\\obj\\",
+        "projectPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\PM.Utility.csproj",
+        "packagesPath": "C:\\Users\\utake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\utake\\OneDrive\\Desktop\\Resume\\ProjectManagement\\PM.API\\PM.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nimap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\utake\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }
